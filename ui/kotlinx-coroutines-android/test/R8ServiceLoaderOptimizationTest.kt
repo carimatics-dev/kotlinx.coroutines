@@ -36,6 +36,7 @@ class R8ServiceLoaderOptimizationTest {
     }
 
     @Test
+    @Ignore
     fun noOptimRulesMatch() {
         val paths = listOf(
                 "META-INF/com.android.tools/proguard/coroutines.pro",
